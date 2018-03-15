@@ -4,19 +4,13 @@ This is the demo repo to show how to test TripActions site - https://tripactions
 
 
 To build the tests use the following command:
- 	mvn clean package
-	
+	mvn clean package
 After completing above command you should have all executable code created under "target" foder
 Verify that the file "demo-0.0.1-SNAPSHOT.jar" was created successfully.
 
-
-
 To start testing TripActions site from java do:
 	java -jar target\demo-0.0.1-SNAPSHOT.jar
-	
 This will perform TripActions tests under springboot frammework
-
-
 
 To start testing TripActions site from maven do:
 	mvn test
